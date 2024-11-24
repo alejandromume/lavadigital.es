@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "image": "assets/imgs/serv-icons/0.png",
+    "category": "Product Design",
+    "title": "Marketing digital",
+    "text": "Impulsamos tu presencia online con estrategias de marketing digital personalizadas, optimizadas para captar más clientes."
+  },
+  {
+    "id": 2,
+    "image": "assets/imgs/serv-icons/1.png",
+    "category": "Customs Services",
+    "title": "Desarrollo web",
+    "text": "Diseñamos y desarrollamos páginas web a medida, rápidas, seguras y optimizadas para buscadores"
+  },
+  {
+    "id": 3,
+    "image": "assets/imgs/serv-icons/2.png",
+    "category": "Product Development",
+    "title": "Agencia SEO",
+    "text": "Mejoramos tu posición en Google con estrategias SEO efectivas que atraen tráfico a tu web."
+  }
+]

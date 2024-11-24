@@ -1,0 +1,179 @@
+[
+  {
+    "id": 0,
+    "link": "/dark/home-main",
+    "image": "/landing-preview/img/demos/m1.jpg",
+    "title": "Home Main",
+    "mode": "dark",
+    "new": true
+  },
+  {
+    "id": 0.1,
+    "link": "/light/home-main",
+    "image": "/landing-preview/img/demos/m01.jpg",
+    "title": "Home Main",
+    "mode": "light",
+    "new": true
+  },
+  {
+    "id": 1,
+    "link": "/dark/home-corporate",
+    "image": "/landing-preview/img/demos/1.jpg",
+    "title": "Corporate",
+    "mode": "dark"
+  },
+  {
+    "id": 2,
+    "link": "/light/home-corporate",
+    "image": "/landing-preview/img/demos/01.jpg",
+    "title": "Corporate",
+    "mode": "light"
+  },
+  {
+    "id": 3,
+    "link": "/dark/home-onepage",
+    "image": "/landing-preview/img/demos/2.jpg",
+    "title": "One page",
+    "mode": "dark"
+  },
+  {
+    "id": 4,
+    "link": "/light/home-onepage",
+    "image": "/landing-preview/img/demos/02.jpg",
+    "title": "One page",
+    "mode": "light"
+  },
+  {
+    "id": 5,
+    "link": "/dark/home-digital-agency",
+    "image": "/landing-preview/img/demos/3.jpg",
+    "title": "Digital Agency",
+    "mode": "dark"
+  },
+  {
+    "id": 6,
+    "link": "/light/home-digital-agency",
+    "image": "/landing-preview/img/demos/03.jpg",
+    "title": "Digital Agency",
+    "mode": "light"
+  },
+  {
+    "id": 7,
+    "link": "/dark/home-freelancer",
+    "image": "/landing-preview/img/demos/4.jpg",
+    "title": "Freelancer",
+    "mode": "dark"
+  },
+  {
+    "id": 8,
+    "link": "/light/home-freelancer",
+    "image": "/landing-preview/img/demos/04.jpg",
+    "title": "Freelancer",
+    "mode": "light"
+  },
+  {
+    "id": 9,
+    "link": "/dark/home-marketing-agency",
+    "image": "/landing-preview/img/demos/5.jpg",
+    "title": "Marketing",
+    "mode": "dark"
+  },
+  {
+    "id": 10,
+    "link": "/light/home-marketing-agency",
+    "image": "/landing-preview/img/demos/05.jpg",
+    "title": "Marketing",
+    "mode": "light"
+  },
+  {
+    "id": 11,
+    "link": "/dark/home-creative-agency",
+    "image": "/landing-preview/img/demos/6.jpg",
+    "title": "Creative agency",
+    "mode": "dark"
+  },
+  {
+    "id": 12,
+    "link": "/light/home-creative-agency",
+    "image": "/landing-preview/img/demos/06.jpg",
+    "title": "Creative agency",
+    "mode": "light"
+  },
+  {
+    "id": 13,
+    "link": "/dark/home-startup",
+    "image": "/landing-preview/img/demos/7.jpg",
+    "title": "Startup Business",
+    "mode": "dark"
+  },
+  {
+    "id": 14,
+    "link": "/light/home-startup",
+    "image": "/landing-preview/img/demos/07.jpg",
+    "title": "Startup Business",
+    "mode": "light"
+  },
+  {
+    "id": 15,
+    "link": "/dark/home-architecture",
+    "image": "/landing-preview/img/demos/8.jpg",
+    "title": "Architecture",
+    "mode": "dark"
+  },
+  {
+    "id": 16,
+    "link": "/light/home-architecture",
+    "image": "/landing-preview/img/demos/08.jpg",
+    "title": "Architecture",
+    "mode": "light"
+  },
+  {
+    "id": 17,
+    "link": "/dark/showcase-parallax-slider",
+    "image": "/landing-preview/img/demos/s1.jpg",
+    "title": "Parallax Full Screen",
+    "mode": "dark"
+  },
+  {
+    "id": 18,
+    "link": "/dark/showcase-carousel",
+    "image": "/landing-preview/img/demos/s4.jpg",
+    "title": "Columns Carousel",
+    "mode": "dark"
+  },
+  {
+    "id": 19,
+    "link": "/light/showcase-carousel",
+    "image": "/landing-preview/img/demos/s04.jpg",
+    "title": "Columns Carousel",
+    "mode": "light"
+  },
+  {
+    "id": 20,
+    "link": "/dark/showcase-circle-slider",
+    "image": "/landing-preview/img/demos/s2.jpg",
+    "title": "Showcase Circle",
+    "mode": "dark"
+  },
+  {
+    "id": 21,
+    "link": "/dark/showcase-frame-slider",
+    "image": "/landing-preview/img/demos/s3.jpg",
+    "title": "Showcase Frame",
+    "mode": "dark"
+  },
+  {
+    "id": 22,
+    "link": "/dark/showcase-interactive-center-horizontal",
+    "image": "/landing-preview/img/demos/s5.jpg",
+    "title": "Interactive",
+    "mode": "dark"
+  },
+  {
+    "id": 23,
+    "link": "/light/showcase-interactive-center-horizontal",
+    "image": "/landing-preview/img/demos/s05.jpg",
+    "title": "Interactive",
+    "mode": "light"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 3,
+    "picture": "/dark/assets/imgs/javier.avif",
+    "position": "Especialista en Marketing",
+    "name": "Javier Rodriguez"
+  },
+  {
+    "id": 2,
+    "picture": "/dark/assets/imgs/team/t2.jpg",
+    "position": "Desarrollador web y SEO/SEM",
+    "name": "Alejandro Müller"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "image": "/dark/assets/imgs/shop/5.jpg",
+    "stars": 5,
+    "name": "Men Hooded",
+    "price": "130.00"
+  },
+  {
+    "id": 2,
+    "image": "/dark/assets/imgs/shop/4.jpg",
+    "stars": 4,
+    "name": "Men Hooded",
+    "price": "130.00"
+  },
+  {
+    "id": 3,
+    "image": "/dark/assets/imgs/shop/8.jpg",
+    "stars": 5,
+    "name": "Men Hooded",
+    "price": "130.00"
+  },
+  {
+    "id": 4,
+    "image": "/dark/assets/imgs/shop/2.jpg",
+    "stars": 4,
+    "name": "Men Hooded",
+    "price": "130.00"
+  },
+  {
+    "id": 5,
+    "image": "/dark/assets/imgs/shop/3.jpg",
+    "stars": 5,
+    "name": "Men Hooded",
+    "price": "130.00"
+  },
+  {
+    "id": 6,
+    "image": "/dark/assets/imgs/shop/6.jpg",
+    "stars": 3,
+    "name": "Men Hooded",
+    "price": "130.00"
+  },
+  {
+    "id": 7,
+    "image": "/dark/assets/imgs/shop/1.jpg",
+    "stars": 5,
+    "name": "Men Hooded",
+    "price": "130.00"
+  },
+  {
+    "id": 8,
+    "image": "/dark/assets/imgs/shop/7.jpg",
+    "stars": 5,
+    "name": "Men Hooded",
+    "price": "130.00"
+  },
+  {
+    "id": 9,
+    "image": "/dark/assets/imgs/shop/9.jpg",
+    "stars": 4,
+    "name": "Men Hooded",
+    "price": "130.00"
+  }
+]

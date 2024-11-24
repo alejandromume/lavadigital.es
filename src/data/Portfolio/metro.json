@@ -1,0 +1,110 @@
+{
+  "filters": [
+    {
+      "id": 1,
+      "title": "All",
+      "filter": "*",
+      "count": "08"
+    },
+    {
+      "id": 2,
+      "title": "Branding",
+      "filter": ".brand",
+      "count": "03"
+    },
+    {
+      "id": 3,
+      "title": "Mobile App",
+      "filter": ".app",
+      "count": "02"
+    },
+    {
+      "id": 4,
+      "title": "Creative",
+      "filter": ".web",
+      "count": "03"
+    }
+  ],
+  "gallery": [
+    {
+      "id": 1,
+      "filter": "web",
+      "image": "/dark/assets/imgs/works/grid/1.jpg",
+      "type": "Design ART",
+      "year": "2023",
+      "title": "Character Design",
+      "width": "3",
+      "height": "1"
+    },
+    {
+      "id": 2,
+      "filter": "app",
+      "image": "/dark/assets/imgs/works/grid/10.jpg",
+      "type": "Design ART",
+      "year": "2023",
+      "title": "Character Design",
+      "width": "3",
+      "height": "2"
+    },
+    {
+      "id": 3,
+      "filter": "brand",
+      "image": "/dark/assets/imgs/works/grid/3.jpg",
+      "type": "Design ART",
+      "year": "2023",
+      "title": "Character Design",
+      "width": "6",
+      "height": "1"
+    },
+    {
+      "id": 4,
+      "filter": "web",
+      "image": "/dark/assets/imgs/works/grid/4.jpg",
+      "type": "Design ART",
+      "year": "2023",
+      "title": "Character Design",
+      "width": "3",
+      "height": "2"
+    },
+    {
+      "id": 5,
+      "filter": "brand",
+      "image": "/dark/assets/imgs/works/grid/5.jpg",
+      "type": "Design ART",
+      "year": "2023",
+      "title": "Character Design",
+      "width": "6",
+      "height": "1"
+    },
+    {
+      "id": 6,
+      "filter": "app",
+      "image": "/dark/assets/imgs/works/grid/6.jpg",
+      "type": "Design ART",
+      "year": "2023",
+      "title": "Character Design",
+      "width": "6",
+      "height": "2"
+    },
+    {
+      "id": 7,
+      "filter": "web",
+      "image": "/dark/assets/imgs/works/grid/7.jpg",
+      "type": "Design ART",
+      "year": "2023",
+      "title": "Character Design",
+      "width": "3",
+      "height": "2"
+    },
+    {
+      "id": 8,
+      "filter": "brand",
+      "image": "/dark/assets/imgs/works/grid/8.jpg",
+      "type": "Design ART",
+      "year": "2023",
+      "title": "Character Design",
+      "width": "3",
+      "height": "2"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/imgs/serv-img/1.jpg",
+    "icon": "/assets/imgs/serv-icons/0.png",
+    "title": "Desarrollo web",
+    "url": "/desarrollo-web"
+  },
+  {
+    "id": 2,
+    "image": "/assets/imgs/serv-img/2.jpg",
+    "icon": "/assets/imgs/serv-icons/1.png",
+    "title": "Posicionamiento en internet (SEO/SEM)",
+    "url": "/seo-sem"
+  },
+  {
+    "id": 3,
+    "image": "/assets/imgs/serv-img/3.jpg",
+    "icon": "/assets/imgs/serv-icons/2.png",
+    "title": "Asesoria para empresas",
+    "url": "/asesorias"
+  }
+]

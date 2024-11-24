@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/imgs/blog/n1.avif",
+    "date": "7 octubre 2024",
+    "title": "Las mejores práticas para posicionar tu web en Google"
+  },
+  {
+    "id": 2,
+    "image": "/assets/imgs/blog/n2.avif",
+    "date": "14 octubre 2024",
+    "title": "¿Qué tecnologías web son las mas demandantes en 2024?"
+  },
+  {
+    "id": 3,
+    "image": "/assets/imgs/blog/n3.avif",
+    "date": "21 octubre 2024",
+    "title": "Cómo crear contenido de calidad en redes sociales"
+  }
+]

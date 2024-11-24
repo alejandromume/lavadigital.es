@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "assets/imgs/portfolio/gallery/1.jpg",
+    "number": "01.",
+    "type": "Digital",
+    "title": "Luxury Glassware",
+    "text": "We craft premium designs for agencies and global brands around the globe."
+  },
+  {
+    "id": 2,
+    "image": "assets/imgs/portfolio/gallery/2.jpg",
+    "number": "02.",
+    "type": "Marketing",
+    "title": "Brand Identity",
+    "text": "We craft premium designs for agencies and global brands around the globe."
+  },
+  {
+    "id": 3,
+    "image": "assets/imgs/portfolio/gallery/3.jpg",
+    "number": "03.",
+    "type": "Design",
+    "title": "Roseville Pottery",
+    "text": "We craft premium designs for agencies and global brands around the globe."
+  }
+]

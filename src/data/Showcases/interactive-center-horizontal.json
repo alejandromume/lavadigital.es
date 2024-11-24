@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "number": "01",
+    "type": "Design",
+    "title": "Everybody sunshine",
+    "image": "/dark/assets/imgs/works/full/1.jpg"
+  },
+  {
+    "id": 2,
+    "number": "02",
+    "type": "Branding",
+    "title": "Who Dares Wins",
+    "image": "/dark/assets/imgs/works/full/2.jpg"
+  },
+  {
+    "id": 3,
+    "number": "03",
+    "type": "Branding",
+    "title": "Fountain Studio",
+    "image": "/dark/assets/imgs/works/full/3.jpg"
+  },
+  {
+    "id": 4,
+    "number": "04",
+    "type": "Photography",
+    "title": "April willow flower",
+    "image": "/dark/assets/imgs/works/full/4.jpg"
+  },
+  {
+    "id": 5,
+    "number": "05",
+    "type": "Design",
+    "title": "Step Over",
+    "image": "/dark/assets/imgs/works/full/1.jpg"
+  },
+  {
+    "id": 6,
+    "number": "06",
+    "type": "ART Design",
+    "title": "Snowy Zero",
+    "image": "/dark/assets/imgs/works/full/2.jpg"
+  },
+  {
+    "id": 7,
+    "number": "07",
+    "type": "Design",
+    "title": "Fun Bike",
+    "image": "/dark/assets/imgs/works/full/3.jpg"
+  },
+  {
+    "id": 8,
+    "number": "08",
+    "type": "Apps",
+    "title": "Mobile Apps",
+    "image": "/dark/assets/imgs/works/full/4.jpg"
+  }
+]

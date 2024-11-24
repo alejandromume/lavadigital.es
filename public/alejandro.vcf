@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N;CHARSET=utf-8:Müller Medina;Alejandro;;;
+EMAIL;PREF;INTERNET:alejandro@lavadigital.es
+ORG;CHARSET=utf-8:Lava Digital;
+item1.URL:https://www.instagram.com/alejandromume
+item1.X-ABLabel:instagram
+item2.URL:https://api.whatsapp.com/send?phone=34636448112
+item2.X-ABLabel:whatsapp
+item3.X-ABLabel:vCard
+TEL;TYPE=WORK,VOICE:+34636448112
+URL;WORK:http://lavadigital.es
+END:VCARD

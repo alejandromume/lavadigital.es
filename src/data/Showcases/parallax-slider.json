@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "background": "/dark/assets/imgs/works/full/1.jpg",
+    "year": "2023",
+    "type": "Branding",
+    "title": "Basket Lamp"
+  },
+  {
+    "id": 2,
+    "background": "/dark/assets/imgs/works/full/2.jpg",
+    "year": "2023",
+    "type": "Branding",
+    "title": "Moon Light"
+  },
+  {
+    "id": 3,
+    "background": "/dark/assets/imgs/works/full/3.jpg",
+    "year": "2023",
+    "type": "Branding",
+    "title": "Red Glasses"
+  },
+  {
+    "id": 4,
+    "background": "/dark/assets/imgs/works/full/4.jpg",
+    "year": "2023",
+    "type": "Branding",
+    "title": "Waffile Maker"
+  },
+  {
+    "id": 5,
+    "background": "/dark/assets/imgs/works/full/5.jpg",
+    "year": "2023",
+    "type": "Branding",
+    "title": "Headphone"
+  },
+  {
+    "id": 6,
+    "background": "/dark/assets/imgs/works/full/6.jpg",
+    "year": "2023",
+    "type": "Branding",
+    "title": "Table Lamp"
+  }
+]

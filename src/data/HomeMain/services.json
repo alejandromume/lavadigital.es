@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "image": "assets/imgs/serv-icons/0.png",
+    "type": "Product Design",
+    "title": "Digital Product Design",
+    "text": "Creating a higher spacing and how people move through a unique."
+  },
+  {
+    "id": 2,
+    "image": "assets/imgs/serv-icons/1.png",
+    "type": "Customs Services",
+    "title": "Branding & Design",
+    "text": "Creating a higher spacing and how people move through a unique."
+  },
+  {
+    "id": 3,
+    "image": "assets/imgs/serv-icons/2.png",
+    "type": "Product Development",
+    "title": "Web Development",
+    "text": "Creating a higher spacing and how people move through a unique."
+  }
+]

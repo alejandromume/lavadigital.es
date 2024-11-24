@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "number": "01",
+    "title": "Elegant Lamp",
+    "image": "/dark/assets/imgs/portfolio/3/1.jpg",
+    "details": "Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "marqText": "Red Package"
+  },
+  {
+    "id": 2,
+    "number": "02",
+    "title": "Wall Lamp",
+    "image": "/dark/assets/imgs/portfolio/3/2.jpg",
+    "details": "Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "marqText": "Wall Lamp"
+  },
+  {
+    "id": 3,
+    "number": "03",
+    "title": "Wall Lamp",
+    "image": "/dark/assets/imgs/portfolio/3/3.jpg",
+    "details": "Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "marqText": "Elegant Stoves"
+  }
+]

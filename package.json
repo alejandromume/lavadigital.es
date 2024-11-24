@@ -1,0 +1,25 @@
+{
+  "name": "geekfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/third-parties": "^15.0.2",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.2",
+    "next": "13.4.2",
+    "react": "18.2.0",
+    "react-cookie-consent": "^9.0.0",
+    "react-countup": "^6.4.2",
+    "react-dom": "18.2.0",
+    "react-scroll-parallax": "^3.4.2",
+    "react-type-animation": "^3.2.0",
+    "swiper": "^8.4.6"
+  }
+}

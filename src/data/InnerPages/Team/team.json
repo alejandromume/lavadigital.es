@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "image": "/dark/assets/imgs/team/1.jpg",
+    "name": "adrian parody",
+    "position": "Co-Founder"
+  },
+  {
+    "id": 2,
+    "image": "/dark/assets/imgs/team/2.jpg",
+    "name": "adrian parody",
+    "position": "Co-Founder"
+  },
+  {
+    "id": 3,
+    "image": "/dark/assets/imgs/team/3.jpg",
+    "name": "adrian parody",
+    "position": "Co-Founder"
+  },
+  {
+    "id": 4,
+    "image": "/dark/assets/imgs/team/4.jpg",
+    "name": "adrian parody",
+    "position": "Co-Founder"
+  },
+  {
+    "id": 5,
+    "image": "/dark/assets/imgs/team/1.jpg",
+    "name": "adrian parody",
+    "position": "Co-Founder"
+  },
+  {
+    "id": 6,
+    "image": "/dark/assets/imgs/team/2.jpg",
+    "name": "adrian parody",
+    "position": "Co-Founder"
+  }
+]

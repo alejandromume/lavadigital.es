@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "background": "/dark/assets/imgs/Portada.jpg",
+    "title": "Bienvenido a Lava Digital",
+    "text": "Agencia de Marketing digital\n en Lanzarote",
+    "button": {
+      "link": "/contacto",
+      "text": "Contacta con nosotros"
+    }
+  }
+]

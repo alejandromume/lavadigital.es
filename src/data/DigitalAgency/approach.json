@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Research",
+    "text": "We help you to go online and increase your conversion rate.",
+    "number": "01"
+  },
+  {
+    "id": 2,
+    "title": "Concept",
+    "text": "We help you to go online and increase your conversion rate.",
+    "number": "02"
+  },
+  {
+    "id": 3,
+    "title": "Implement",
+    "text": "We help you to go online and increase your conversion rate.",
+    "number": "03"
+  },
+  {
+    "id": 4,
+    "title": "Handover",
+    "text": "We help you to go online and increase your conversion rate.",
+    "number": "04"
+  }
+]

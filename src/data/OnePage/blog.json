@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "image": "/dark/assets/imgs/blog/b1.jpg",
+    "author": {
+      "name": "Olivia Rhye",
+      "picture": "/dark/assets/imgs/blog/author1.jpg"
+    },
+    "title": "The Highly Creative UI/UX Workflow from a Silicon Valley.",
+    "date": "6 August 2022",
+    "tags": [
+      "Design",
+      "Marketing"
+    ]
+  },
+  {
+    "id": 2,
+    "image": "/dark/assets/imgs/blog/b2.jpg",
+    "author": {
+      "name": "Olivia Rhye",
+      "picture": "/dark/assets/imgs/blog/author1.jpg"
+    },
+    "title": "Creativo Jóvenes: a Lead Designer's UI/UX Core Checklist.",
+    "date": "6 August 2022",
+    "tags": [
+      "Design",
+      "Marketing"
+    ]
+  },
+  {
+    "id": 3,
+    "image": "/dark/assets/imgs/blog/b3.jpg",
+    "author": {
+      "name": "Olivia Rhye",
+      "picture": "/dark/assets/imgs/blog/author1.jpg"
+    },
+    "title": "Definitive Guide to Make a Daily More Productive Working Flow.",
+    "date": "6 August 2022",
+    "tags": [
+      "Design",
+      "Marketing"
+    ]
+  }
+]

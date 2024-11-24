@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "link": "/dark/shop-list",
+    "image": "/landing-preview/img/shop/1.jpg",
+    "title": "Main Shop",
+    "mode": "dark",
+    "new": true
+  },
+  {
+    "id": 2,
+    "link": "/light/shop-list",
+    "image": "/landing-preview/img/shop/01.jpg",
+    "title": "Main Shop",
+    "mode": "light",
+    "new": true
+  },
+  {
+    "id": 3,
+    "link": "/dark/shop-product",
+    "image": "/landing-preview/img/shop/2.jpg",
+    "title": "Single Product",
+    "mode": "dark",
+    "new": true
+  },
+  {
+    "id": 4,
+    "link": "/light/shop-product",
+    "image": "/landing-preview/img/shop/02.jpg",
+    "title": "Single Product",
+    "mode": "light",
+    "new": true
+  },
+  {
+    "id": 5,
+    "link": "/dark/shop-cart",
+    "image": "/landing-preview/img/shop/3.jpg",
+    "title": "Cart",
+    "mode": "dark",
+    "new": true
+  },
+  {
+    "id": 6,
+    "link": "/light/shop-cart",
+    "image": "/landing-preview/img/shop/03.jpg",
+    "title": "Cart",
+    "mode": "light",
+    "new": true
+  },
+  {
+    "id": 7,
+    "link": "/dark/shop-checkout",
+    "image": "/landing-preview/img/shop/4.jpg",
+    "title": "Checkout",
+    "mode": "dark",
+    "new": true
+  },
+  {
+    "id": 8,
+    "link": "/light/shop-checkout",
+    "image": "/landing-preview/img/shop/04.jpg",
+    "title": "Checkout",
+    "mode": "light",
+    "new": true
+  }
+]

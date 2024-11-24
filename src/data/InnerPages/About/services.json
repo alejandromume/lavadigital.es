@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "assets/imgs/serv-icons/0.png",
+    "title": "Resultados medibles",
+    "text": "No nos quedamos en promesas. Nuestra prioridad es ofrecer resultados concretos y medibles que puedas ver en el crecimiento de tu negocio. "
+  },
+  {
+    "id": 2,
+    "image": "assets/imgs/serv-icons/1.png",
+    "title": "Enfoque en la experiencia del cliente",
+    "text": "Tu éxito es nuestro éxito. Nos enfocamos en construir relaciones sólidas y transparentes, trabajando de la mano contigo durante todo el proceso. "
+  },
+  {
+    "id": 3,
+    "image": "assets/imgs/serv-icons/2.png",
+    "title": "Estrategias personalizadas",
+    "text": "Entendemos que cada negocio es único, por lo que diseñamos estrategias digitales adaptadas a las necesidades y objetivos específicos de tu marca. "
+  }
+]
