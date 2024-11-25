@@ -13,7 +13,7 @@ function Services({ lightMode }) {
             <div className="col-lg-8">
               <div className="position-re">
                 <h6 className="dot-titl-non colorbg-3 mb-10">PRINCIPIOS</h6>
-                <h2 className="fz-60 fw-700" style={{fontFamily: "Satoshi-Light"}}>Nuestros principios</h2>
+                <h2 className="fz-60 fw-100" style={{fontFamily: "Satoshi-Light"}}>Nuestros principios</h2>
               </div>
             </div>
 
