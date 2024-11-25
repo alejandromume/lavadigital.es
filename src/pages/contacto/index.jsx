@@ -14,6 +14,8 @@ import Footer from '@/components/Freelancer/Footer';
 function PageContact() {
   useEffect(() => {
     document.body.classList.add('main-bg');
+    window.scrollTo(0, 0);
+
     return () => document.body.classList.remove('main-bg');
   }, []);
 

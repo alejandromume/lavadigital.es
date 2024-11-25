@@ -19,7 +19,7 @@ function BlogDetails() {
       gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
       ScrollTrigger.normalizeScroll(true)
       ScrollSmoother.create({
-        smooth: 1.3,
+        smooth: 2,
         effects: true,
       });
     }
