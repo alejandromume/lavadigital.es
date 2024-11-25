@@ -113,9 +113,9 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
         </div>
       
         { width > 991 ? (
-            <a href="/contacto" className="butn butn-md butn-bord radius-30" style={{justifyContent: "right"}}>
+            <Link href="/contacto" className="butn butn-md butn-bord radius-30" style={{justifyContent: "right"}}>
               <span className="text">Contacta</span>
-            </a>
+            </Link>
           ) : null }
 
         {/*<div className="search-form">
