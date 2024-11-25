@@ -25,7 +25,7 @@ function About({ lightMode }) {
                   </div>
                 </div>
                 <div>
-                  <h3 className='fz-25 fw-800' style={{fontFamily: "Satoshi-Light"}}>Desarrollo web a medida</h3>
+                  <h3 className='fz-22' >Desarrollo web a medida</h3>
                   <p>Servicios de creación de paginas web a medida <br /> para <b>e-commerce, negocios...</b></p>
                   <Link href="/desarrollo-web" className="arrow mt-20">
                     <span className="fz-13 mr-10">Quiero saber más</span>
@@ -47,7 +47,7 @@ function About({ lightMode }) {
                   </div>
                 </div>
                 <div>
-                  <h3 className='fz-25 fw-800' style={{fontFamily: "Satoshi-Light"}}>Posicionamiento en internet (SEO/SEM)</h3>
+                  <h3 className='fz-22' >Posicionamiento en internet (SEO/SEM)</h3>
                   <p>¿Quieres aparecer en los primeros resultados <br /> de busqueda en internet? Te ayudamos</p>
                   <Link href="/seo-sem" className="arrow mt-20">
                     <span className="fz-13 mr-10">Quiero saber más</span>
@@ -69,7 +69,7 @@ function About({ lightMode }) {
                   </div>
                 </div>
                 <div>
-                  <h3 className='fz-25 fw-800' style={{fontFamily: "Satoshi-Light"}}>Asesorias a empresas</h3>
+                  <h3 className='fz-22' >Asesorias a empresas</h3>
                   <p>Asesorias personalizadas enfocadas en las<br /> preocupaciones que impiden avanzar a tu negocio</p>
                   <Link href="/asesorias" className="arrow mt-20">
                     <span className="fz-13 mr-10">Quiero saber más</span>
