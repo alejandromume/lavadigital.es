@@ -21,6 +21,8 @@ import Footer from '@/components/Startup/Footer';
 function PageAbout() {
   useEffect(() => {
     document.body.classList.add('main-bg');
+    window.scrollTo(0, 0);
+
     if(window.innerWidth > 988){
       gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
       ScrollTrigger.normalizeScroll(true)
