@@ -12,7 +12,12 @@ function Services({ lightMode }) {
           <div className="row">
             <div className="">
               <div className="position-re">
-                <h2 className="fz-48 fw-100" style={{fontFamily: "Satoshi-Regular"}}>¿Qué somos?</h2>
+                
+                <h2 className="fz-48 fw-100 d-slideup wow" style={{fontFamily: "Satoshi-Regular"}}>
+                  <span className='sideup-text'>
+                    <span className='up-text'>¿Qué somos?</span>
+                  </span>
+                </h2>
               </div>
             </div>
             <div className="">

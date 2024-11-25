@@ -56,7 +56,7 @@ function Header() {
           {
             data.map((item) => (
               <SwiperSlide key={item.id}>
-                <div className="bg-img valign" data-background={item.background}
+                <div className="bg-img valign" data-background={"/dark/assets/imgs//Portada2.jpg"}
                   data-overlay-dark="7">
                   <div className="container">
                     <div className="row justify-content-center">

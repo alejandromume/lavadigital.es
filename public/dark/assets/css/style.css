@@ -3150,8 +3150,8 @@ body.loaded {
 .navbar.sub-bg {
   /*background: #1a1a1a;*/
   background: transparent;
-  -webkit-backdrop-filter: blur(35px);
-  backdrop-filter: blur(35px);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   /*border-color: rgba(255, 255, 255, 0.05);*/
 }
 
@@ -3167,6 +3167,7 @@ body.loaded {
 
 .navbar.nav-scroll {
   background: transparent;
+  -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   border-color: rgba(255, 255, 255, 0.02);
   padding: 0;
