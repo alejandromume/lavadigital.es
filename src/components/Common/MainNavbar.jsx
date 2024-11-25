@@ -1,7 +1,23 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 
 function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
+  const [width, setWidth] = useState(992);
+
+  useEffect(() => {
+    setWidth(window.innerWidth)
+  },[])
+
+  function handleWindowSizeChange() {
+    setWidth(window.innerWidth);
+  }
+  useEffect(() => {
+      window.addEventListener('resize', handleWindowSizeChange);
+      return () => {
+          window.removeEventListener('resize', handleWindowSizeChange);
+      }
+  }, []);
+
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -77,10 +93,12 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
                 <Link className="dropdown-item" href={/*`/${lightMode ? 'light' : 'dark'}/blog-half-img`*/ "asesorias"}>Asesorias a empresas</Link>
               </div>
             </li>
-
-            <li className="nav-item">
-              <Link className="nav-link" href={`/contacto`}><span className="rolling-text">Contacto</span></Link>
-            </li>
+            
+            { width < 991 ? (
+                <li className="nav-item">
+                <Link className="nav-link" href={`/contacto`}><span className="rolling-text">Contacto</span></Link>
+              </li>
+            ) : null }
 
             <li className="nav-item dropdown" onMouseMove={handleDropdownMouseMove} onMouseLeave={handleDropdownMouseLeave}>
               <Link className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
@@ -93,6 +111,12 @@ function MainNavbar({ lightMode, mainBg, subBg, noStatic, curve }) {
             </li>
           </ul>
         </div>
+      
+        { width > 991 ? (
+            <a href="contacto" className="butn butn-md butn-bord radius-30" style={{justifyContent: "right"}}>
+              <span className="text">Contacta</span>
+            </a>
+          ) : null }
 
         {/*<div className="search-form">
           <div className="form-group">
