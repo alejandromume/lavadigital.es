@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Link from 'next/link';
 import { useParallax } from 'react-scroll-parallax';
 import { TypeAnimation } from "react-type-animation"
+import parallaxieGroup from '@/common/parallaxieGroup';
 
 function About({ lightMode }) {
-  const parallax = useParallax({
-    speed: 10,
-  });
+  useEffect(() => {
+    parallaxieGroup(`.bg-img.parallaxie`, -0.3);
+  }, []);
 
   return (
     <section className="intro-serv section-padding">
@@ -99,11 +100,11 @@ function About({ lightMode }) {
               </div>
             </div>
           </div>
-          <div className="col-lg-5 offset-lg-1 paralax" ref={parallax.ref}>
-            <div>
-              <img src={`/${lightMode ? 'light' : 'dark'}/assets/imgs/img22.avif`} alt="" />
-            </div>
-          </div>
+          <div className="bg-img inner parallaxie col-lg-5 offset-lg-1" data-background="/dark/assets/imgs/img5.avif" style={{
+            overflow: "hidden",
+            
+            }}/>
+
         </div>
       </div>
     </section>

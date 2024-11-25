@@ -4,11 +4,14 @@ import Link from 'next/link';
 import ModalVideo from '../Common/ModalVideo';
 //= Scripts
 import parallaxie from '@/common/parallaxie';
+import parallaxieGroup from '@/common/parallaxieGroup';
 
 function SideImage() {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
   const [sizeX, setSizeX] = useState()
-
+  useEffect(() => {
+    parallaxieGroup(`.bg-img.parallaxie`, -0.15);
+  }, []);
 
   function openVideo(event) {
     event.preventDefault();
@@ -16,7 +19,7 @@ function SideImage() {
   }
 
   return (
-    <section className="sideimg-numbers section-padding sub-bg" style={{backgroundImage: "url('/dark/assets/imgs/section.avif')", backgroundPosition: "center"}}>
+    <section className="bg-img inner parallaxie sideimg-numbers section-padding sub-bg" data-background="/dark/assets/imgs/section.avif" style={{backgroundRepeat: "no-repeat", backgroundSize: "110% 130%", backgroundPosition: "center"}}>
       <div className="container">
         <div className="row">
           <div className="col-lg-6">

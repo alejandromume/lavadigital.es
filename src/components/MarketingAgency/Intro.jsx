@@ -24,18 +24,8 @@ function Intro() {
   return (
     <section className="intro-corp section-padding" style={{backgroundColor: "#1D1D1D"}}>
       <div className="container">
-        <div className="row justify-content-around">
-          <div className="col-lg-5 valign md-mb50">
-            <div className="imgs full-width mb-80">
-              <div className="img1 main-color2 wow fadeInUp">
-                <img src="/dark/assets/imgs/img4.avif" alt="" />
-              </div>
-              <div className="img2 wow fadeInLeft">
-              </div>
-            </div>
-          </div>
-          
-          <div className="col-lg-5 valign">
+        <center>
+          <div className="col-lg-8 valign">
             <div className="cont full-width">
               <div className="text">
                 <h2 className="d-slideup wow">
@@ -77,7 +67,7 @@ function Intro() {
 
                 <div className="item mb-15 wow fadeInUp" id="1" data-wow-delay=".1s">
                   <div className="title" onClick={openAccordion}>
-                    <h3 className="fz-16">¿Qué incluye el servicio de desarrollo web a medida?</h3>
+                    <h3 className="fz-18">¿Qué incluye el servicio de desarrollo web a medida?</h3>
                     <span className="ico"></span>
                   </div>
                   <div className="accordion-info">
@@ -89,7 +79,7 @@ function Intro() {
 
                 <div className="item mb-15 wow fadeInUp" id="2" data-wow-delay=".3s">
                   <div className="title" onClick={openAccordion}>
-                    <h3 className="fz-16">¿Puedo solicitar una consulta antes de contratar sus servicios?</h3>
+                    <h3 className="fz-18">¿Puedo solicitar una consulta antes de contratar sus servicios?</h3>
                     <span className="ico"></span>
                   </div>
                   <div className="accordion-info">
@@ -101,7 +91,7 @@ function Intro() {
 
                 <div className="item wow fadeInUp" id="3" data-wow-delay=".5s">
                   <div className="title" onClick={openAccordion}>
-                    <h3 className="fz-16">¿Cómo se realiza el asesoramiento para empresas?</h3>
+                    <h3 className="fz-18">¿Cómo se realiza el asesoramiento para empresas?</h3>
                     <span className="ico"></span>
                   </div>
                   <div className="accordion-info">
@@ -113,7 +103,7 @@ function Intro() {
 
                 <div className="item wow fadeInUp" id="4" data-wow-delay=".5s">
                   <div className="title" onClick={openAccordion}>
-                    <h3 className="fz-16">¿Ofrecen soporte después de la entrega del proyecto?</h3>
+                    <h3 className="fz-18">¿Ofrecen soporte después de la entrega del proyecto?</h3>
                     <span className="ico"></span>
                   </div>
                   <div className="accordion-info">
@@ -125,7 +115,7 @@ function Intro() {
 
                 <div className="item wow fadeInUp" id="5" data-wow-delay=".5s">
                   <div className="title" onClick={openAccordion}>
-                    <h3 className="fz-16">¿Qué garantías ofrecen sobre la calidad del trabajo?</h3>
+                    <h3 className="fz-18">¿Qué garantías ofrecen sobre la calidad del trabajo?</h3>
                     <span className="ico"></span>
                   </div>
                   <div className="accordion-info">
@@ -136,8 +126,8 @@ function Intro() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+      </div>
+      </center>
       </div>
     </section>
   )
