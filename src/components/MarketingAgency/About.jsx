@@ -1,12 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
 import { useParallax } from 'react-scroll-parallax';
+import { TypeAnimation } from "react-type-animation"
 
 function About({ lightMode }) {
-  /*const parallax = useParallax({
+  const parallax = useParallax({
     speed: 10,
-    translateY: [40, -40]
-  });*/
+  });
 
   return (
     <section className="intro-serv section-padding">
@@ -16,7 +16,19 @@ function About({ lightMode }) {
             <div className="cont md-mb50">
               <div className="mb-50">
                 <h6 className="sub-title mb-15">Qué hacemos en lava digital ?</h6>
-                <h2 className='fz-48 fw-100' style={{fontFamily: "Satoshi-Regular"}}>Universo digital que <span className='gradient'>conecta y cambia</span></h2>
+                  <h2 className='fz-48 fw-100' style={{fontFamily: "Satoshi-Regular"}}>
+                  <TypeAnimation
+                    sequence={[
+                      "Universo digital que conecta",1500,
+                      "Universo digital que innova",1500,
+                      "Universo digital que cambia",1500,
+                      "Universo digital que atrae",1500,
+                    ]}
+                    wrapper='span'
+                    speed={5}
+                    repeat={Infinity}
+                  />
+                  </h2>
               </div>
               <div className="item d-flex align-items-center pb-20 mb-20 bord-thin-bottom">
                 <div>
@@ -87,7 +99,7 @@ function About({ lightMode }) {
               </div>
             </div>
           </div>
-          <div className="col-lg-5 offset-lg-1">
+          <div className="col-lg-5 offset-lg-1 paralax" ref={parallax.ref}>
             <div>
               <img src={`/${lightMode ? 'light' : 'dark'}/assets/imgs/img22.avif`} alt="" />
             </div>

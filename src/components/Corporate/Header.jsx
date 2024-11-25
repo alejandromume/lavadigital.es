@@ -7,6 +7,7 @@ import { Navigation, Autoplay, Pagination, Parallax } from 'swiper';
 import loadBackgroudImages from '@/common/loadBackgroudImages';
 //= Data
 import data from '@/data/Corporate/header.json';
+import { useParallax } from "react-scroll-parallax"
 
 const swiperOptions = {
   modules: [Navigation, Autoplay, Pagination, Parallax],
