@@ -16,7 +16,7 @@ function About({ lightMode }) {
             <div className="cont md-mb50">
               <div className="mb-50">
                 <h6 className="sub-title mb-15">Qué hacemos en lava digital ?</h6>
-                <h2 className='fz-48'>Marketing digital que <span className='gradient'>conecta, crea y convierte</span></h2>
+                <h2 className='fz-48' style={{fontFamily: "Satoshi-Light"}}>Universo digital que <span className='gradient'>conecta y cambia</span></h2>
               </div>
               <div className="item d-flex align-items-center pb-20 mb-20 bord-thin-bottom">
                 <div>
@@ -25,7 +25,7 @@ function About({ lightMode }) {
                   </div>
                 </div>
                 <div>
-                  <h3 className='fz-25'>Desarrollo web a medida</h3>
+                  <h3 className='fz-25' style={{fontFamily: "Satoshi-Medium"}}>Desarrollo web a medida</h3>
                   <p>Servicios de creación de paginas web a medida <br /> para <b>e-commerce, negocios...</b></p>
                   <Link href="/desarrollo-web" className="arrow mt-20">
                     <span className="fz-13 mr-10">Quiero saber más</span>
@@ -47,7 +47,7 @@ function About({ lightMode }) {
                   </div>
                 </div>
                 <div>
-                  <h3 className='fz-25'>Posicionamiento en internet (SEO/SEM)</h3>
+                  <h3 className='fz-25' style={{fontFamily: "Satoshi-Medium"}}>Posicionamiento en internet (SEO/SEM)</h3>
                   <p>¿Quieres aparecer en los primeros resultados <br /> de busqueda en internet? Te ayudamos</p>
                   <Link href="/seo-sem" className="arrow mt-20">
                     <span className="fz-13 mr-10">Quiero saber más</span>
@@ -69,7 +69,7 @@ function About({ lightMode }) {
                   </div>
                 </div>
                 <div>
-                  <h3 className='fz-25'>Asesorias a empresas</h3>
+                  <h3 className='fz-25' style={{fontFamily: "Satoshi-Medium"}}>Asesorias a empresas</h3>
                   <p>Asesorias personalizadas enfocadas en las<br /> preocupaciones que impiden avanzar a tu negocio</p>
                   <Link href="/asesorias" className="arrow mt-20">
                     <span className="fz-13 mr-10">Quiero saber más</span>

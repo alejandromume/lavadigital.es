@@ -91,9 +91,8 @@ function HomeMarketingAgency() {
             <About />
             <Clients />
             <Team/>
-
-            <Intro /> 
             <SideImage/>
+            <Intro /> 
             <Blog />
             {/*<Team/>*
             <Clients />

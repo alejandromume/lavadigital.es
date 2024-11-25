@@ -13,7 +13,7 @@ function Intro() {
   }
 
   return (
-    <section className="intro-corp section-padding">
+    <section className="intro-corp section-padding" style={{backgroundColor: "#1D1D1D"}}>
       <div className="container">
         <div className="row justify-content-around">
           <div className="col-lg-5 valign md-mb50">
@@ -31,7 +31,7 @@ function Intro() {
               <div className="text">
                 <h2 className="d-slideup wow">
                   <span className="sideup-text">
-                    <span className="up-text fz-65">Preguntas <span className='gradient'>frecuentes</span> </span>
+                    <span className="up-text fz-65" style={{fontFamily: "Satoshi-Light"}}>Preguntas <span className='gradient'>frecuentes</span> </span>
                   </span>
                 </h2>
               </div>

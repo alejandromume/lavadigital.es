@@ -8,11 +8,11 @@ import data from '@/data/MarketingAgency/clients.json';
 const swiperOptions = {
   modules: [Navigation, Autoplay],
   slidesPerView: 3,
-  speed: 1000,
+  speed: 1500,
   loop: true,
   spaceBetween: 40,
   autoplay: {
-    delay: 1500
+    delay: 1000
   },
   breakpoints: {
     0: {
@@ -43,7 +43,7 @@ function Clients({ lightMode }) {
         <div className="row justify-content-center">
           <div className="col-lg-9">
             <div className="text-center mb-50">
-              <h6 className="fz-18 fw-400">Empresas que han elegido a <b>Lava Digital</b> en su negocio</h6>
+              <h6 className="fz-18 fw-400">Negocios que han apostado por la innovación digital de <b>Lava Digital</b> en su negocio</h6>
             </div>
           </div>
         </div>

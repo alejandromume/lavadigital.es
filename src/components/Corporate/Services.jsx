@@ -5,19 +5,19 @@ import data from '@/data/Corporate/services.json';
 
 function Services({ lightMode }) {
   return (
-    <section className="serv-box section-padding">
+    <section className="serv-box section-padding" style={{backgroundColor: "#1D1D1D"}}>
       <div className="container">
         <div className="sec-lg-head mb-80">
         <center>
           <div className="row">
             <div className="">
               <div className="position-re">
-                <h2 className="fz-60 fw-700">¿Qué somos?</h2>
+                <h2 className="fz-48" style={{fontFamily: "Satoshi-Light"}}>¿Qué somos?</h2>
               </div>
             </div>
             <div className="">
               <div className="text">
-                <p className='fz-18 col-lg-7'>Lava Digital es una <span className='gradient'><b>agencia de Marketing Digital en Lanzarote</b></span> especializada en marketing online y desarrollo web que impulsa empresas y negocios en internet.</p>
+                <p className='fz-18 col-lg-7'>Lava Digital es una agencia de <span className='gradient fw-500'><b>innovación digital</b></span> en Lanzarote especializada en la digitalización y desarrollo web que impulsa empresas y negocios en internet.</p>
               </div>
             </div>
           </div>

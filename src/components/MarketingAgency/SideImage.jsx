@@ -16,13 +16,13 @@ function SideImage() {
   }
 
   return (
-    <section className="sideimg-numbers section-padding sub-bg">
+    <section className="sideimg-numbers section-padding sub-bg" style={{backgroundImage: "url('/dark/assets/imgs/section.avif')", backgroundPosition: "center"}}>
       <div className="container">
         <div className="row">
-          <div className="col-lg-8">
+          <div className="col-lg-6">
             <div className="cont">
               <div>
-                <h2 className="fz-70">¿Por qué elegir a <span className='gradient'>Lava Digital</span>?</h2>
+                <h2 className="fz-70"><span style={{fontFamily: "Satoshi-Light"}}>¿Por qué elegir a </span><span >Lava Digital</span><span style={{fontFamily: "Satoshi-Light"}}>?</span></h2>
                 <div className="underline">
                   <p className='fz-20'>Queremos lo mejor para ti, por ello, nuestra prioridad es la <span className='gradient'><b>confianza</b></span>. Nos gusta construir relaciones basadas en el compromiso y la transparencia, asi como comprometernos a ofrecer resultados medibles y un crecimiento sostenible para tu marca.</p>
                 </div>

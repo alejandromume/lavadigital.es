@@ -8,7 +8,7 @@ function Header({ data, subBg }) {
           <div className="col-lg-8">
             <div className="caption">
               <h6 className="sub-title">{data.subTitle}</h6>
-              <h1 className="fz-70">Porque llevamos tu marca al <span className='gradient'>siguiente nivel</span></h1>
+              <h1 className="fz-70" style={{fontFamily: "Satoshi-Light"}}>Llevamos tu negocio al <span className='gradient'>siguiente nivel</span></h1>
             </div>
           </div>
         </div>

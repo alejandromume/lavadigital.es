@@ -24,7 +24,7 @@ function Story() {
           <div className="col-lg-8">
             <div className="cont mt-80">
               {/*<h4>En <span className='gradient'>Lava Creativa</span>, entendemos que cada marca es única, como los paisajes volcánicos de Lanzarote. Por eso creamos <span className='gradient'>soluciones a medida</span>, diseñadas específicamente para maximizar tu impacto digital. </h4>*/}
-              <span className='fz-20'>
+              <span className='fz-20' style={{fontFamily: "Satoshi-Light"}}>
               Somos un equipo <span className='gradient'><b>joven</b></span> y <span className='gradient'><b>apasionado</b></span> de Lanzarote, comprometidos con llevar la creatividad y la tecnología a las empresas que buscan hacer crecer su presencia online. Nacidos en un entorno de inspiración natural y diversidad cultural, sabemos cómo adaptar las soluciones digitales a cada necesidad, con <span className='gradient'><b>estrategias modernas</b></span> y <span className='gradient'><b>personalizadas</b></span> para impulsar el éxito de cada proyecto.
               </span>
             </div>

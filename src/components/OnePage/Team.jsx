@@ -74,7 +74,7 @@ function Team() {
     }
   }
   return (
-    <section className="team section-padding">
+    <section className="team section-padding" style={{backgroundColor: "#1D1D1D"}}>
       <center>
       <div className="container">
         <div className="sec-head mb-80">
@@ -82,7 +82,7 @@ function Team() {
             <div className="">
               <h6 className="sub-title opacity-8 wow fadeInUp">conoce a</h6>
               <h2 className="d-rotate wow">
-                <span className="rotate-text">Nuestro equipo.</span>
+                <span className="rotate-text" style={{fontFamily: "Satoshi-Light"}}>Nuestro equipo.</span>
               </h2>
             </div>
           </div>
@@ -112,7 +112,7 @@ function Team() {
           <div style={{ display: "flex", alignContent: "center", flexWrap: "wrap" }} className="responsive-container">
           <div className="item mb-50">
                     <div className="img">
-                      <img src={"dark/assets/imgs/alejandro.avif"} style={{width:"60%"}} alt="" />
+                      <img src={"dark/assets/imgs/alejandro.avif"} style={{width:"50%"}} alt="" />
                     </div>
                     <div className="info mt-20">
                       <span className="fz-12 opacity-8">{"Desarrollador web y SEO/SEM"}</span>
@@ -121,7 +121,7 @@ function Team() {
                   </div>
             <div className="item mb-50">
                     <div className="img">
-                      <img src={"dark/assets/imgs/javier.avif"} style={{width:"60%"}} alt="" />
+                      <img src={"dark/assets/imgs/javier.avif"} style={{width:"50%"}} alt="" />
                     </div>
                     <div className="info mt-20">
                       <span className="fz-12 opacity-8">{"Especialista en Marketing"}</span>
