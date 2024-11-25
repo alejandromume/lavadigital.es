@@ -44,9 +44,9 @@ function Blog({ lightMode }) {
       <div className="container">
         <div className="sec-head mb-80">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-5">
               <h6 className="sub-title mb-15">Últimas noticias</h6>
-              <h2 className="fz-50">Lee nuestras <span className='gradient'>últimas</span> noticias.</h2>
+              <h2 className="fz-60" style={{fontFamily: "Satoshi-Light"}}>Lee nuestras <span className='gradient'>últimas</span> noticias.</h2>
             </div>
             <div className="col-lg-6 d-flex align-items-center">
               <div className="full-width">
