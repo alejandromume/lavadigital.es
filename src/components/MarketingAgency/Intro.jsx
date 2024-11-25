@@ -2,14 +2,23 @@ import React from 'react';
 
 function Intro() {
   function openAccordion(event) {
-    document.querySelectorAll('.accordion-info').forEach(element => {
-      element.classList.remove('active');
-      element.style.maxHeight = 0;
-      element.parentElement.classList.remove('active');
-    })
-    event.currentTarget.parentElement.classList.add('active');
-    event.currentTarget.nextElementSibling.style.maxHeight = '300px';
-    event.currentTarget.nextElementSibling.classList.add('active');
+
+    if(event.currentTarget.parentElement.classList.contains("active")){
+      event.currentTarget.nextElementSibling.classList.remove("active")
+      event.currentTarget.parentElement.classList.remove("active")
+      event.currentTarget.nextElementSibling.style.maxHeight = 0;
+      event.currentTarget.classList.remove("active")
+    }else{
+      document.querySelectorAll('.accordion-info').forEach(element => {     
+        element.classList.remove('active');
+        element.style.maxHeight = 0;
+        element.parentElement.classList.remove('active');
+      })
+
+      event.currentTarget.parentElement.classList.add('active');
+      event.currentTarget.nextElementSibling.style.maxHeight = '300px';
+      event.currentTarget.nextElementSibling.classList.add('active');
+    }
   }
 
   return (
@@ -66,7 +75,7 @@ function Intro() {
               </div>*/}
               <div className="accordion bord mt-40">
 
-                <div className="item mb-15 wow fadeInUp" data-wow-delay=".1s">
+                <div className="item mb-15 wow fadeInUp" id="1" data-wow-delay=".1s">
                   <div className="title" onClick={openAccordion}>
                     <h3 className="fz-16">¿Qué incluye el servicio de desarrollo web a medida?</h3>
                     <span className="ico"></span>
@@ -78,7 +87,7 @@ function Intro() {
                   </div>
                 </div>
 
-                <div className="item mb-15 wow fadeInUp" data-wow-delay=".3s">
+                <div className="item mb-15 wow fadeInUp" id="2" data-wow-delay=".3s">
                   <div className="title" onClick={openAccordion}>
                     <h3 className="fz-16">¿Puedo solicitar una consulta antes de contratar sus servicios?</h3>
                     <span className="ico"></span>
@@ -90,7 +99,7 @@ function Intro() {
                   </div>
                 </div>
 
-                <div className="item wow fadeInUp" data-wow-delay=".5s">
+                <div className="item wow fadeInUp" id="3" data-wow-delay=".5s">
                   <div className="title" onClick={openAccordion}>
                     <h3 className="fz-16">¿Cómo se realiza el asesoramiento para empresas?</h3>
                     <span className="ico"></span>
@@ -102,7 +111,7 @@ function Intro() {
                   </div>
                 </div>
 
-                <div className="item wow fadeInUp" data-wow-delay=".5s">
+                <div className="item wow fadeInUp" id="4" data-wow-delay=".5s">
                   <div className="title" onClick={openAccordion}>
                     <h3 className="fz-16">¿Ofrecen soporte después de la entrega del proyecto?</h3>
                     <span className="ico"></span>
@@ -114,7 +123,7 @@ function Intro() {
                   </div>
                 </div>
 
-                <div className="item wow fadeInUp" data-wow-delay=".5s">
+                <div className="item wow fadeInUp" id="5" data-wow-delay=".5s">
                   <div className="title" onClick={openAccordion}>
                     <h3 className="fz-16">¿Qué garantías ofrecen sobre la calidad del trabajo?</h3>
                     <span className="ico"></span>
