@@ -3,10 +3,10 @@ import Link from 'next/link';
 import { useParallax } from 'react-scroll-parallax';
 
 function About({ lightMode }) {
-  const parallax = useParallax({
+  /*const parallax = useParallax({
     speed: 10,
     translateY: [40, -40]
-  });
+  });*/
 
   return (
     <section className="intro-serv section-padding">
@@ -88,7 +88,7 @@ function About({ lightMode }) {
             </div>
           </div>
           <div className="col-lg-5 offset-lg-1">
-            <div ref={parallax.ref}>
+            <div>
               <img src={`/${lightMode ? 'light' : 'dark'}/assets/imgs/img22.avif`} alt="" />
             </div>
           </div>
