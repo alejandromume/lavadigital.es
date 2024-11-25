@@ -22,7 +22,7 @@ function SideImage() {
           <div className="col-lg-6">
             <div className="cont">
               <div>
-                <h2 className="fz-70"><span style={{fontFamily: "Satoshi-Light"}}>¿Por qué elegir a </span><span >Lava Digital</span><span style={{fontFamily: "Satoshi-Light"}}>?</span></h2>
+                <h2 className="fz-70"><span className='fw-100' style={{fontFamily: "Satoshi-Regular"}}>¿Por qué elegir a </span><span >Lava Digital</span><span className='fw-100' style={{fontFamily: "Satoshi-Light"}}>?</span></h2>
                 <div className="underline">
                   <p className='fz-20'>Queremos lo mejor para ti, por ello, nuestra prioridad es la <span className='gradient'><b>confianza</b></span>. Nos gusta construir relaciones basadas en el compromiso y la transparencia, asi como comprometernos a ofrecer resultados medibles y un crecimiento sostenible para tu marca.</p>
                   <Link href="contacto/" className="butn butn-md butn-bg main-colorbg3 text-dark mt-30">

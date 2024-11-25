@@ -65,7 +65,7 @@ function Header() {
 
                             <span className="ml-10">{item.title}</span>
                           </h6>
-                          <h1 className="fz-60" style={{fontFamily: "Satoshi-Light"}}>La llegada de la innovación digital a Lanzarote</h1>
+                          <h1 className="fz-80 fw-100" style={{fontFamily: "Satoshi-Regular"}}>La llegada de la innovación digital a Lanzarote</h1>
                           <Link href={item.button.link} className="butn butn-md butn-bg main-colorbg3 text-dark mt-30">
                             {item.button.text}
                             <i className="ml-5"><svg width="18" height="18" viewBox="0 0 18 18"

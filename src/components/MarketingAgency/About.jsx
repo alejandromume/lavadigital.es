@@ -16,7 +16,7 @@ function About({ lightMode }) {
             <div className="cont md-mb50">
               <div className="mb-50">
                 <h6 className="sub-title mb-15">Qué hacemos en lava digital ?</h6>
-                <h2 className='fz-48' style={{fontFamily: "Satoshi-Light"}}>Universo digital que <span className='gradient'>conecta y cambia</span></h2>
+                <h2 className='fz-48 fw-100' style={{fontFamily: "Satoshi-Regular"}}>Universo digital que <span className='gradient'>conecta y cambia</span></h2>
               </div>
               <div className="item d-flex align-items-center pb-20 mb-20 bord-thin-bottom">
                 <div>

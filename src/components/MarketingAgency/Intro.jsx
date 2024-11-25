@@ -31,7 +31,7 @@ function Intro() {
               <div className="text">
                 <h2 className="d-slideup wow">
                   <span className="sideup-text">
-                    <span className="up-text fz-65" style={{fontFamily: "Satoshi-Light"}}>Preguntas <span className='gradient'>frecuentes</span> </span>
+                    <span className="up-text fz-65 fw-100" style={{fontFamily: "Satoshi-Regular"}}>Preguntas <span className='gradient'>frecuentes</span> </span>
                   </span>
                 </h2>
               </div>

@@ -12,7 +12,7 @@ function Services({ lightMode }) {
           <div className="row">
             <div className="">
               <div className="position-re">
-                <h2 className="fz-48" style={{fontFamily: "Satoshi-Light"}}>¿Qué somos?</h2>
+                <h2 className="fz-48 fw-100" style={{fontFamily: "Satoshi-Regular"}}>¿Qué somos?</h2>
               </div>
             </div>
             <div className="">

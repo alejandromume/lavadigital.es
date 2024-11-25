@@ -82,7 +82,7 @@ function Team() {
             <div className="">
               <h6 className="sub-title opacity-8 wow fadeInUp">conoce a</h6>
               <h2 className="d-rotate wow">
-                <span className="rotate-text" style={{fontFamily: "Satoshi-Light"}}>Nuestro equipo.</span>
+                <span className="fw-100" style={{fontFamily: "Satoshi-Regular"}}>Nuestro equipo.</span>
               </h2>
             </div>
           </div>
