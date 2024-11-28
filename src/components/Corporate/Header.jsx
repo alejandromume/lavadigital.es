@@ -7,7 +7,7 @@ import { Navigation, Autoplay, Pagination, Parallax } from 'swiper';
 import loadBackgroudImages from '@/common/loadBackgroudImages';
 //= Data
 import data from '@/data/Corporate/header.json';
-
+import parallaxieGroup from '@/common/parallaxieGroup';
 const swiperOptions = {
   modules: [Navigation, Autoplay, Pagination, Parallax],
   speed: 1500,
@@ -37,10 +37,9 @@ const swiperOptions = {
 
 function Header() {
   const [loadSwiper, setLoadSwiper] = useState(false);
-  const parallax = useParallax({
-    speed: -10,
-  });
+
   useEffect(() => {
+    parallaxieGroup(".bg-img.parallaxie", -0.6)
     setLoadSwiper(true);
   }, []);
 

@@ -6,13 +6,13 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="Lava Digital es una agencia de marketing e innovación digital en Lanzarote especializada en el marketing online y digitalización corporativa que impulsa empresas y negocios en internet." />
+        <meta name="description" content="Lava Digital es una agencia de marketing e innovación digital en Lanzarote especializada en el desarrollo web y digitalización que impulsa empresas en internet." />
         <meta name="keywords" content="lava digital, lavadigital, lavacreatuva, lanzarote, marketing, seo, desarrollo, canarias" />
         <meta name="author" content="" />
         <meta property="og:url" content="https://lavadigital.es/"/>
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="Lava Digital - Agencia de Marketing Digital en Lanzarote"/>
-        <meta property="og:description" content="Lava Digital es una agencia de marketing e innovación digital en Lanzarote especializada en el marketing online y digitalización corporativa que impulsa empresas y negocios en internet."/>
+        <meta property="og:description" content="Lava Digital es una agencia de marketing e innovación digital en Lanzarote especializada en el desarrollo web y digitalización que impulsa empresas en internet."/>
         <meta property="og:image" content="https://lavadigital.es/dark/assets/imgs/Portada.jpg"/>
         {/* ------ Favicon ------ */}
         <link rel="icon" href="favicon.ico" sizes="32x32" />

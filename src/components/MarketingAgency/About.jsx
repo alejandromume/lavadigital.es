@@ -6,7 +6,7 @@ import parallaxieGroup from '@/common/parallaxieGroup';
 
 function About({ lightMode }) {
   useEffect(() => {
-    parallaxieGroup(`.bg-img.parallaxie`, 0.4);
+    parallaxieGroup(`.bg-img.parallaxie`, 0.6);
   }, []);
 
   return (
