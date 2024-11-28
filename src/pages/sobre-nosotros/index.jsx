@@ -23,14 +23,14 @@ function PageAbout() {
     document.body.classList.add('main-bg');
     window.scrollTo(0, 0);
 
-    if(window.innerWidth > 988){
+    /*if(window.innerWidth > 988){
       gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
       ScrollTrigger.normalizeScroll(true)
       ScrollSmoother.create({
         smooth: 2,
         effects: true,
       });
-    }
+    }*/
     return () => document.body.classList.remove('main-bg');
   }, []);
 

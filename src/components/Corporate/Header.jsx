@@ -7,7 +7,6 @@ import { Navigation, Autoplay, Pagination, Parallax } from 'swiper';
 import loadBackgroudImages from '@/common/loadBackgroudImages';
 //= Data
 import data from '@/data/Corporate/header.json';
-import { useParallax } from "react-scroll-parallax"
 
 const swiperOptions = {
   modules: [Navigation, Autoplay, Pagination, Parallax],
@@ -38,7 +37,9 @@ const swiperOptions = {
 
 function Header() {
   const [loadSwiper, setLoadSwiper] = useState(false);
-
+  const parallax = useParallax({
+    speed: -10,
+  });
   useEffect(() => {
     setLoadSwiper(true);
   }, []);
@@ -56,7 +57,7 @@ function Header() {
           {
             data.map((item) => (
               <SwiperSlide key={item.id}>
-                <div className="bg-img valign" data-background={"/dark/assets/imgs/Portada2.jpg"}
+                <div className="bg-img inner parallaxie valign" data-background={"/dark/assets/imgs/Portada2.jpg"}
                   data-overlay-dark="7">
                   <div className="container">
                     <div className="row justify-content-center">

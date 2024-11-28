@@ -10,7 +10,7 @@ function SideImage() {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
   const [sizeX, setSizeX] = useState()
   useEffect(() => {
-    parallaxieGroup(`.bg-img.parallaxie`, -0.15);
+    parallaxieGroup(`.bg-img.parallaxie`, 0.8);
   }, []);
 
   function openVideo(event) {

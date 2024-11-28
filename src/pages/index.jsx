@@ -40,14 +40,14 @@ function HomeMarketingAgency() {
   useEffect(() => {
     document.body.classList.add('digital-marketing', 'sub-bg');
     customScript();
-    if(window.innerWidth > 988){
+    /*if(window.innerWidth > 988){
       gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
       ScrollTrigger.normalizeScroll(true)
       ScrollSmoother.create({
         smooth: 2,
         effects: true,
       });
-    }
+    }*/
     return () => document.body.classList.remove('digital-marketing', 'sub-bg');
   }, []);
 
