@@ -67,7 +67,7 @@ function HomeMarketingAgency() {
         >
         Utilizamos <Link href="/cookies"><u>cookies</u></Link> de terceros para analizar el uso del sitio web y mostrarte publicidad relacionada con tus preferencias sobre la base de un perfil elaborado a partir de tus hábitos de navegación (por ejemplo, páginas visitadas).
         </CookieConsent>
-      <Loader />
+      {/*<Loader />*/}
 
       {/*
         width < 500 ? (
