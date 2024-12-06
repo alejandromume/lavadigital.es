@@ -12,7 +12,7 @@ const swiperOptions = {
   loop: true,
   spaceBetween: 40,
   autoplay: {
-    delay: 1000
+    delay: 800
   },
   breakpoints: {
     0: {

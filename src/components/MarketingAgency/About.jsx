@@ -1,12 +1,11 @@
 import React, { useEffect } from 'react';
 import Link from 'next/link';
-import { useParallax } from 'react-scroll-parallax';
 import { TypeAnimation } from "react-type-animation"
-import parallaxieGroup from '@/common/parallaxieGroup';
+import parallaxieGroup from '@/common/parallaxie';
 
 function About({ lightMode }) {
   useEffect(() => {
-    parallaxieGroup(`.bg-img.parallaxie`, 0.6);
+    parallaxieGroup(`.bg-img.parallaxie`, 0.3);
   }, []);
 
   return (
@@ -16,7 +15,7 @@ function About({ lightMode }) {
           <div className="col-lg-6">
             <div className="cont md-mb50">
               <div className="mb-50">
-                <h6 className="sub-title mb-15">Qué hacemos en lava digital ?</h6>
+                <h6 className="sub-title mb-15">¿Qué hacemos en lava digital ?</h6>
                   <h2 className='fz-48 fw-100' style={{fontFamily: "Satoshi-Regular"}}>
                   <TypeAnimation
                     sequence={[
@@ -100,7 +99,7 @@ function About({ lightMode }) {
               </div>
             </div>
           </div>
-          <div className="bg-img inner parallaxie col-lg-5 offset-lg-1" data-background="/dark/assets/imgs/img5.avif" style={{
+          <div className="bg-img inner parallaxie valign col-lg-5 offset-lg-1" data-background="/dark/assets/imgs/img5.avif" style={{
             overflow: "hidden",
             
             }}/>

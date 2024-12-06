@@ -15,9 +15,9 @@ function CallToAction({ lightMode }) {
           <div className="col-lg-10">
             <div className="sec-lg-head text-center">
               <h2 className="fz-70 fw-700">
-                <span>Quieres que tu negocio triunfe en internet?</span> <br />
+                <span>¿Quieres que tu negocio triunfe en internet?</span> <br />
                 <span className="underline">
-                  <Link href="/contacto" className="main-color2">Háblanos.</Link>
+                  <Link href="/contacto" className="gradient">Háblanos.</Link>
                 </span>
               </h2>
             </div>
