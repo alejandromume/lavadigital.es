@@ -19,7 +19,7 @@ export default function Document() {
         <link rel="icon" href="favicon.ico" sizes="192x192" />
         {/* ------ Google Fonts ------ */}
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" />
+        {/*<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" />*/}
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&display=swap" />
@@ -31,7 +31,7 @@ export default function Document() {
         {/* ------ Core Style Css ------ */}
         <link rel="stylesheet" href="/dark/assets/css/style.css" />
       </Head>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-H7LS6W9QLW"></script>
+      <GoogleAnalytics gaId='G-H7LS6W9QLW'/>
       <script async src='/analytics.js'/>
       <body>
         <Main />
