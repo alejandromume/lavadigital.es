@@ -7,8 +7,8 @@ function Header({ data, subBg }) {
         <div className="row">
           <div className="col-lg-8">
             <div className="caption">
-              <h6 className="sub-title">{data.subTitle}</h6>
-              <h1 className="fz-70 fw-100" style={{fontFamily: "Satoshi-Light"}}>Llevamos tu negocio al <span className='gradient'>siguiente nivel</span></h1>
+              <h6 className="fz-15 sub-title">{data.subTitle}</h6>
+              <h1 className="fz-80">Llevamos tu negocio al <span className='gradient'>siguiente nivel</span></h1>
             </div>
           </div>
         </div>

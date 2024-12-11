@@ -15,8 +15,8 @@ export default function Document() {
         <meta property="og:description" content="Lava Digital es una agencia de marketing e innovación digital en Lanzarote especializada en el desarrollo web y digitalización que impulsa empresas en internet."/>
         <meta property="og:image" content="https://lavadigital.es/dark/assets/imgs/Portada.jpg"/>
         {/* ------ Favicon ------ */}
-        <link rel="icon" href="favicon.ico" sizes="32x32" />
-        <link rel="icon" href="favicon.ico" sizes="192x192" />
+        <link rel="icon" href="/favicon.ico" sizes="32x32" />
+        <link rel="icon" href="/favicon.ico" sizes="192x192" />
         {/* ------ Google Fonts ------ */}
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" />
         {/*<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" />*/}
